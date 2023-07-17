@@ -1,0 +1,5 @@
+## This is the softwares requried for password usage in ssh in ansible
+
+sudo amazon-linux-extras install epel -y
+sudo yum-config-manager --enable epel
+sudo yum install sshpass
